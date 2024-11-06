@@ -15,7 +15,7 @@ const RecentProjects = () => {
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <a
-            href={item.link}
+            href={item.link} // Each card uses its own GitHub link
             target="_blank"
             rel="noopener noreferrer"
             key={item.id}
@@ -81,3 +81,4 @@ const RecentProjects = () => {
 };
 
 export default RecentProjects;
+
