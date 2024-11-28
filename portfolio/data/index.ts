@@ -30,7 +30,7 @@ export const navItems = [
       des: " Developed a travel blog app using React with seamless story creation, editing, and deletion, featuring JWT-based authentication for secure user sessions.",
       img: "/93.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-      link: "https://github.com/vaibha-v19/T-Blog/",
+      link: "https://t-blog-frontend.vercel.app/",
     },
     {
       id: 4,
