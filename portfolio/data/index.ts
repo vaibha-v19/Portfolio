@@ -8,16 +8,9 @@ export const navItems = [
   
   
   export const projects = [
+    
     {
       id: 1,
-      title: "Chatty",
-      des: "Developed a chat application called Chatty using the MERN stack, Socket.io, TailwindCSS, and Daisy UI.",
-      img: "/91.png",
-      iconLists: ["/re.svg", "/tail.svg"],
-      link: "https://github.com/vaibha-v19/Chatty",
-    },
-    {
-      id: 2,
       title: " FileShareNow",
       des: " Built a file sharing app using React, significantly increasing file sharing speed and reducing file sharing related support requests.",
       img: "/92.png",
@@ -25,7 +18,7 @@ export const navItems = [
       link: "https://fs-frontend-livid.vercel.app/",
     },
     {
-      id: 3,
+      id: 2,
       title: " Travellers’ - A Travel Blog Application",
       des: " Developed a travel blog app using React with seamless story creation, editing, and deletion, featuring JWT-based authentication for secure user sessions.",
       img: "/93.png",
@@ -33,14 +26,23 @@ export const navItems = [
       link: "https://t-blog-frontend.vercel.app/",
     },
     {
-      id: 4,
+      id: 3,
       title: "Electricity Demand and Price Forecasting",
       des: "Electricity-Demand-and-Price-Forecasting",
       img: "/94.jpeg",
       iconLists: [],
       link: "https://github.com/vaibha-v19/Electricity-Demand-and-Price-Forecasting",
     },
+      {
+      id: 4,
+      title: "Chatty",
+      des: "Developed a chat application called Chatty using the MERN stack, Socket.io, TailwindCSS, and Daisy UI.",
+      img: "/91.png",
+      iconLists: ["/re.svg", "/tail.svg"],
+      link: "https://github.com/vaibha-v19/Chatty",
+    },
   ];
+
   
   
   
